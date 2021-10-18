@@ -49,6 +49,30 @@ html{
     text-align: center;    
 }
 
+.etichette{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+}
+
+.etichetta1, .etichetta2{
+    display: inline-block;
+}
+
+.etichetta1{
+    background-color: red;
+}
+
+.etichetta2{
+    background-color: green;
+}
+
+.sconto, .sostenibilita{
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+}
+
 .fotoA{
     width: 100%;
     height: 100%;
