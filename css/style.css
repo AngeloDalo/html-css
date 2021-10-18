@@ -6,7 +6,6 @@
 
 html{
     font-size: 100%;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
@@ -15,24 +14,33 @@ html{
     clear: both;
 }
 
+h2{
+    color: grey;
+    font-size: 0.8em;
+}
+h1{
+    font-size: 1em;
+}
+
+/*pagina principale*/
 .contenitore{
     width: 80%;
     margin: auto;
-    height: 1200px;
     margin-top: 2em;
     /*background-color: grey;*/
 }
 
+/*singola inserzione*/
 .inserzione{
     margin-left: 1.3em;
     margin-top: 2em;
     float: left;
     width: calc(100% / 3 - 1.3em);
-    height: 45%;
     display: inline-block;
     position: relative;
 }
 
+/*grandezza foto nell'inserzione*/
 .foto{
     width: 100%;
     height: 90%;
@@ -55,6 +63,7 @@ html{
     top: 80%;
 }
 
+/*mouse sulla foto cambia foto e colore cuore*/
 .inserzione:hover .fotoA{
     display: none;
 }
@@ -63,14 +72,21 @@ html{
     display: block;
 }
 
+.inserzione:hover .hearts{
+    color: red;
+}
+/*fine hover*/
+
 .etichetta1, .etichetta2{
     display: inline-block;
 }
 
+/*sconto*/
 .etichetta1{
     background-color: red;
 }
 
+/*sostenibilità*/
 .etichetta2{
     background-color: green;
 }
@@ -81,24 +97,15 @@ html{
     font-weight: bold;
 }
 
+/*foto iniziale*/
 .fotoA{
     width: 100%;
-    height: 100%;
 }
 
+/*foto visibile con hover*/
 .fotoB{
     display: none;
     width: 100%;
-    height: 100%;
-}
-
-
-h2{
-    color: grey;
-    font-size: 0.8em;
-}
-h1{
-    font-size: 1em;
 }
 
 .offerta{
