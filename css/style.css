@@ -55,6 +55,14 @@ html{
     top: 80%;
 }
 
+.inserzione:hover .fotoA{
+    display: none;
+}
+
+.inserzione:hover .fotoB{
+    display: block;
+}
+
 .etichetta1, .etichetta2{
     display: inline-block;
 }
@@ -80,7 +88,10 @@ html{
 
 .fotoB{
     display: none;
+    width: 100%;
+    height: 100%;
 }
+
 
 h2{
     color: grey;
