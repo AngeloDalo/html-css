@@ -68,6 +68,7 @@ h1{
     display: none;
 }
 
+  /*con block crea bug*/
 .inserzione:hover .fotoB{
     display: inline-block;
 }
