@@ -78,17 +78,17 @@ h1{
 }
 /*fine hover*/
 
-.etichetta1, .etichetta2{
+.etichetta-sconto, .etichetta-tag{
     display: inline-block;
 }
 
 /*sconto*/
-.etichetta1{
+.etichetta-sconto{
     background-color: red;
 }
 
 /*sostenibilità*/
-.etichetta2{
+.etichetta-tag{
     background-color: green;
 }
 
